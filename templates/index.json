@@ -3,6 +3,17 @@
         "image_banner": {
             "type": "image-banner",
             "blocks": {
+                "button": {
+                    "type": "buttons",
+                    "settings": {
+                        "button_label_1": "Shop all",
+                        "button_link_1": "shopify:\/\/collections\/all",
+                        "button_style_secondary_1": true,
+                        "button_label_2": "",
+                        "button_link_2": "",
+                        "button_style_secondary_2": false
+                    }
+                },
                 "heading": {
                     "type": "heading",
                     "settings": {
@@ -16,17 +27,6 @@
                         "text": "DAMIAN Give customers details about the banner image(s) or content on the template.",
                         "text_style": "body"
                     }
-                },
-                "button": {
-                    "type": "buttons",
-                    "settings": {
-                        "button_label_1": "Shop all",
-                        "button_link_1": "shopify:\/\/collections\/all",
-                        "button_style_secondary_1": true,
-                        "button_label_2": "",
-                        "button_link_2": "",
-                        "button_style_secondary_2": false
-                    }
                 }
             },
             "block_order": [
@@ -35,13 +35,13 @@
                 "text"
             ],
             "settings": {
-                "image_overlay_opacity": 40,
+                "image_overlay_opacity": 20,
                 "image_height": "large",
                 "adapt_height_first_image": false,
-                "desktop_content_position": "bottom-center",
-                "show_text_box": false,
+                "desktop_content_position": "middle-center",
+                "show_text_box": true,
                 "desktop_content_alignment": "center",
-                "color_scheme": "background-1",
+                "color_scheme": "inverse",
                 "mobile_content_alignment": "center",
                 "stack_images_on_mobile": false,
                 "show_text_below": false
@@ -207,6 +207,20 @@
                 "padding_top": 36,
                 "padding_bottom": 36
             }
+        },
+        "video_overlay": {
+            "type": "video-overlay",
+            "settings": {
+                "heading": "Video Overlay",
+                "heading_size": "h1",
+                "cover_image": "shopify:\/\/shop_images\/freegreatpicture.com-15297-coffee-and-coffee-beans-close-up.jpg",
+                "video_url": "https:\/\/www.youtube.com\/watch?v=-36PYrfAeFI",
+                "description": "",
+                "full_width": false,
+                "color_scheme": "background-1",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
         }
     },
     "order": [
@@ -215,6 +229,7 @@
         "featured_collection",
         "collage",
         "video",
-        "multicolumn"
+        "multicolumn",
+        "video_overlay"
     ]
 }
