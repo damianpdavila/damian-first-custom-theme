@@ -39,9 +39,9 @@
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -222,6 +222,78 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165306392445e376f7": {
+      "type": "featured-product",
+      "blocks": {
+        "1653063924ad223e7a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1653063924ad223e7a-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1653063924ad223e7a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1653063924ad223e7a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1653063924ad223e7a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1653063924ad223e7a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1653063924ad223e7a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1653063924ad223e7a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1653063924ad223e7a-0",
+        "1653063924ad223e7a-1",
+        "1653063924ad223e7a-2",
+        "1653063924ad223e7a-3",
+        "1653063924ad223e7a-4",
+        "1653063924ad223e7a-5",
+        "1653063924ad223e7a-6",
+        "1653063924ad223e7a-7"
+      ],
+      "settings": {
+        "product": "black-tea-cup",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -231,6 +303,7 @@
     "collage",
     "video",
     "multicolumn",
-    "video_overlay"
+    "video_overlay",
+    "165306392445e376f7"
   ]
 }
